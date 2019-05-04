@@ -13,21 +13,28 @@ int Add(int x, int y){
   return x + y;
 }
 
-double Add(double x, double y){
+//参数类型不同
+double Add(double x, long y){
   return x + y;
 }
-
-long Add(long x, long y){
+//参数顺序不同
+long Add(long x, double y){
   return x + y;
+}
+//参数个数不同
+int Add(int x, int y, int z){
+  return x + y + z;
 }
 
 int main() {
   int a = Add(10, 20);
-  double b = Add(10.0, 20.0);
-  long c = Add(10L, 20L);
+  double b = Add(10.0, 20L);
+  long c = Add(10L, 20.0);
+  int d = Add(10, 20, 30);
   cout<<a<<endl;
   cout<<b<<endl;
   cout<<c<<endl;
+  cout<<d<<endl;
 
   return 0;
 }
