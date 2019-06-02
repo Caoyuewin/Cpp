@@ -10,7 +10,7 @@ int main(){
   while(1){
 
     cin>>a;
-    
+
     cout<<a<<endl;
     if(a == 10)
       break;
@@ -67,3 +67,65 @@ int main() {
   return 0;
 }
 #endif
+
+#if 0
+void TestFun(int a =10){
+  cout<<"缺省"<<endl;
+}
+
+void TestFun(int a){
+  cout<<"非缺省"<<endl;
+}
+//重载失败
+int main() {
+  int a = 10;
+  TestFun(a);
+  return 0;
+}
+
+
+
+int main(){
+  int a, b;
+  while(cin>>a>>b){
+    cout<<a+b<<endl;
+  }
+  return 0;
+}
+#endif
+
+#if 0
+
+int main(){
+  int n;
+  int a_1,a_2, a_3;
+  cin >> n;
+  cout << n << endl;
+  while(n){
+    cin >> a_1 >> a_2 >> a_3;
+    cout<< a_1 << " " << a_2 <<" "<< a_3 << endl;
+    n--;
+  }
+  return 0;
+}
+#endif
+
+#include <vector>
+
+class Solution {
+  public:
+    bool Find(int target, vector<vector<int> > array) {
+      int i = 0 ,j = array[i].size() - 1;
+      for(; target >= array[i][j]; i++){
+        if(target == array[i][j])
+          return true;
+      }
+      for(; j >= 0; j--){
+        if(array[i][j] == target)
+          return true;
+      }
+      return false;
+
+    }
+
+};
