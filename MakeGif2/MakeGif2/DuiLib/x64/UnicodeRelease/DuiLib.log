@@ -1,0 +1,104 @@
+﻿生成启动时间为 2019/6/21 12:53:36。
+     1>项目“D:\项目文档\DuilibTest\duilib-master\duilib-master\duilib-master\DuiLib\DuiLib.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Build\Release_u/DuiLib.pch" /Fo"x64\UnicodeRelease\\" /Fd"x64\UnicodeRelease\vc120.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Build\Release_u/DuiLib.pch" /Fo"x64\UnicodeRelease\\" /Fd"x64\UnicodeRelease\vc120.pdb" /Gd /TP /errorReport:prompt UIlib.cpp Utils\WinImplBase.cpp Utils\UIDelegate.cpp Utils\Utils.cpp Core\UIBase.cpp Core\UIContainer.cpp Core\UIControl.cpp Core\UIDlgBuilder.cpp Core\UIManager.cpp Core\UIMarkup.cpp Core\UIRender.cpp Layout\UIChildLayout.cpp Layout\UIHorizontalLayout.cpp Layout\UITabLayout.cpp Layout\UITileLayout.cpp Layout\UIVerticalLayout.cpp Control\UIActiveX.cpp Control\UIButton.cpp Control\UICheckBox.cpp Control\UICombo.cpp Control\UIComboBox.cpp Control\UIDateTime.cpp Control\UIEdit.cpp Control\UILabel.cpp Control\UIList.cpp Control\UIOption.cpp Control\UIProgress.cpp Control\UIRichEdit.cpp Control\UIScrollBar.cpp Control\UISlider.cpp Control\UIText.cpp Control\UITreeView.cpp Control\UIWebBrowser.cpp
+         UIlib.cpp
+         WinImplBase.cpp
+         UIDelegate.cpp
+         Utils.cpp
+         UIBase.cpp
+     1>Core\UIBase.cpp(295): warning C4244: “=”: 从“WPARAM”转换到“UINT”，可能丢失数据
+     1>Core\UIBase.cpp(307): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+         UIContainer.cpp
+         UIControl.cpp
+         UIDlgBuilder.cpp
+         UIManager.cpp
+         UIMarkup.cpp
+     1>Core\UIMarkup.cpp(209): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(214): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(489): warning C4244: “初始化”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(490): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(506): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+     1>Core\UIMarkup.cpp(514): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+         UIRender.cpp
+     1>Core\UIRender.cpp(1947): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         UIChildLayout.cpp
+         UIHorizontalLayout.cpp
+         UITabLayout.cpp
+         UITileLayout.cpp
+         UIVerticalLayout.cpp
+         UIActiveX.cpp
+         UIButton.cpp
+         UICheckBox.cpp
+         UICombo.cpp
+         正在生成代码...
+         正在编译...
+         UIComboBox.cpp
+         UIDateTime.cpp
+         UIEdit.cpp
+         UILabel.cpp
+         UIList.cpp
+         UIOption.cpp
+         UIProgress.cpp
+         UIRichEdit.cpp
+         UIScrollBar.cpp
+         UISlider.cpp
+         UIText.cpp
+         UITreeView.cpp
+         UIWebBrowser.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\UnicodeRelease\\" /Fd"x64\UnicodeRelease\vc120.pdb" /Gd /TC /errorReport:prompt Utils\stb_image.c
+         stb_image.c
+     1>Utils\stb_image.c(764): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>Utils\stb_image.c(777): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Ob1 /D WIN32 /D NDEBUG /D _WINDOWS /D UILIB_EXPORTS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\UnicodeRelease\\" /Fd"x64\UnicodeRelease\vc120.pdb" /Gd /TP /errorReport:prompt Utils\XUnzip.cpp
+         XUnzip.cpp
+     1>Utils\XUnzip.cpp(3458): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\项目文档\DuilibTest\duilib-master\duilib-master\duilib-master\x64\UnicodeRelease\DuiLib.dll) does not match the Linker's OutputFile property value (D:\项目文档\DuilibTest\duilib-master\duilib-master\duilib-master\bin\DuiLib_u.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_u). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../bin/DuiLib_u.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"D:\项目文档\DuilibTest\duilib-master\duilib-master\duilib-master\x64\UnicodeRelease\DuiLib.pdb" /TLBID:1 /BASE:"0x11000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"../Lib/DuiLib_u.lib" /MACHINE:X64 /DLL x64\UnicodeRelease\StdAfx.obj
+         x64\UnicodeRelease\UIlib.obj
+         x64\UnicodeRelease\WinImplBase.obj
+         x64\UnicodeRelease\stb_image.obj
+         x64\UnicodeRelease\UIDelegate.obj
+         x64\UnicodeRelease\Utils.obj
+         x64\UnicodeRelease\XUnzip.obj
+         x64\UnicodeRelease\UIBase.obj
+         x64\UnicodeRelease\UIContainer.obj
+         x64\UnicodeRelease\UIControl.obj
+         x64\UnicodeRelease\UIDlgBuilder.obj
+         x64\UnicodeRelease\UIManager.obj
+         x64\UnicodeRelease\UIMarkup.obj
+         x64\UnicodeRelease\UIRender.obj
+         x64\UnicodeRelease\UIChildLayout.obj
+         x64\UnicodeRelease\UIHorizontalLayout.obj
+         x64\UnicodeRelease\UITabLayout.obj
+         x64\UnicodeRelease\UITileLayout.obj
+         x64\UnicodeRelease\UIVerticalLayout.obj
+         x64\UnicodeRelease\UIActiveX.obj
+         x64\UnicodeRelease\UIButton.obj
+         x64\UnicodeRelease\UICheckBox.obj
+         x64\UnicodeRelease\UICombo.obj
+         x64\UnicodeRelease\UIComboBox.obj
+         x64\UnicodeRelease\UIDateTime.obj
+         x64\UnicodeRelease\UIEdit.obj
+         x64\UnicodeRelease\UILabel.obj
+         x64\UnicodeRelease\UIList.obj
+         x64\UnicodeRelease\UIOption.obj
+         x64\UnicodeRelease\UIProgress.obj
+         x64\UnicodeRelease\UIRichEdit.obj
+         x64\UnicodeRelease\UIScrollBar.obj
+         x64\UnicodeRelease\UISlider.obj
+         x64\UnicodeRelease\UIText.obj
+         x64\UnicodeRelease\UITreeView.obj
+         x64\UnicodeRelease\UIWebBrowser.obj
+            正在创建库 ../Lib/DuiLib_u.lib 和对象 ../Lib/DuiLib_u.exp
+         DuiLib.vcxproj -> D:\项目文档\DuilibTest\duilib-master\duilib-master\duilib-master\x64\UnicodeRelease\DuiLib.dll
+     1>已完成生成项目“D:\项目文档\DuilibTest\duilib-master\duilib-master\duilib-master\DuiLib\DuiLib.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.52

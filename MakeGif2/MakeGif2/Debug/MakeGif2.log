@@ -1,0 +1,12 @@
+﻿MakeGif2.obj : error LNK2019: 无法解析的外部符号 "__declspec(dllimport) public: struct HWND__ * __thiscall DuiLib::CWindowWnd::Create(struct HWND__ *,char const *,unsigned long,unsigned long,int,int,int,int,struct HMENU__ *)" (__imp_?Create@CWindowWnd@DuiLib@@QAEPAUHWND__@@PAU3@PBDKKHHHHPAUHMENU__@@@Z)，该符号在函数 _WinMain@16 中被引用
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual char const * __thiscall DuiLib::CButtonUI::GetClass(void)const " (?GetClass@CButtonUI@DuiLib@@UBEPBDXZ)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void * __thiscall DuiLib::CButtonUI::GetInterface(char const *)" (?GetInterface@CButtonUI@DuiLib@@UAEPAXPBD@Z)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual char __thiscall DuiLib::CControlUI::GetShortcut(void)const " (?GetShortcut@CControlUI@DuiLib@@UBEDXZ)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "protected: virtual char const * __thiscall DuiLib::CWindowWnd::GetSuperClassName(void)const " (?GetSuperClassName@CWindowWnd@DuiLib@@MBEPBDXZ)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::CButtonUI::SetAttribute(char const *,char const *)" (?SetAttribute@CButtonUI@DuiLib@@UAEXPBD0@Z)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::CControlUI::SetName(char const *)" (?SetName@CControlUI@DuiLib@@UAEXPBD@Z)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::CControlUI::SetShortcut(char)" (?SetShortcut@CControlUI@DuiLib@@UAEXD@Z)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::CLabelUI::SetText(char const *)" (?SetText@CLabelUI@DuiLib@@UAEXPBD@Z)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::CControlUI::SetToolTip(char const *)" (?SetToolTip@CControlUI@DuiLib@@UAEXPBD@Z)
+MakeGif2.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall DuiLib::CControlUI::SetUserData(char const *)" (?SetUserData@CControlUI@DuiLib@@UAEXPBD@Z)
+F:\比特\git Cpp\Cpp\MakeGif2\Debug\MakeGif2.exe : fatal error LNK1120: 11 个无法解析的外部命令
